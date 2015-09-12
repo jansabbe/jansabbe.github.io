@@ -1,0 +1,31 @@
+---
+layout: post
+title: The lead developer
+---
+
+
+Yesterday I was at [The Lead Developer](http://theleaddeveloper.com) conference. The talk on microservices by Russ Miles started of with a live performance of _Highway to Hell_, talked about Anti-fragility, DDD, CQRS and ended with a marriage proposal. Clearly this isn't your average conference. While the technical content was great, it was the people-oriented topics that made it truly worthwhile. Here is a little summary on what I learned thanks to all the wonderful speakers.
+
+![Russ Miles rocks](/public/images/russ_miles_highway_to_hell.jpg)
+
+During my last coaching talk, I got the feedback that it would help more if I try to get my colleagues to the next level. I was a bit too focused on improving my own technical skills. I'm pretty sure Camille Fournier made her talk specifically for me, elaborating on this topic. At a certain point, your technical skills are no longer your main bottleneck. It makes more sense to help your team get better, instead of trying to improve your individual productivity. Become a multiplier in your team, instead of getting a little bit better.
+
+She tackled some of the typical mental hurdles you might encounter when making the switch. You might suffer of availability bias. The more skilled you are at something, the more important you think it is. You might fear that you'll end up being a pointy-eared boss without any technical skills. You might not like it outside your comfort zone. I know I tend to go back to my comfort zone the moment the pressure is on.
+
+Personally I have always struggled with this coaching aspect of my role. One reason is that I always had the idea that there was little difference between being an agile coach and being a lead developer. I did some projects as an agile coach, guiding teams through a transformation. I didn't like it. You're never really part of the team, needing to keep some distance. You're not building a product, instead constantly observing and subtly guiding the team to work well together. As an introvert, this drains all my energy. Introversion can be a great power while coaching, but I have no idea how other coaches are able to recharge. 
+
+Dan North had a great talk that helped me make the distinction between coach and lead developer. As a lead developer, you are part of the team. You are building a product, figuring out how to keep it running in production. You are talking to business, figuring out the simplest way to value. When my team mates come to me with a technical problem, half the time I tell them not to solve it. I tell them to talk to the product owner and see if there is a simpler solution possible. 
+
+There are still a lot more aspects to being a lead developer. You don't need to just lead and mentor your team, but also realize that you are part of a bigger department and organization. Teams might need to be quickly formed and rearranged. Knowledge sharing should occur across team boundaries, preferably as a natural side-effect of working. On-boarding of new people becomes very important. It might not be a bad idea if all new hires follow the same set of courses and read some of the same books. It can help creating the same shared values in an organization and reduce the time of forming/storming phases.
+
+There is a lot more uncertainty on how to approach things as a tech lead. You don't have simple black or white answers, you have a bunch of annoying paradoxes. Do you stay technical or do you try to enable people? Do you try to go faster or do you reserve some time for learning? Do you focus on delivering or do you try to innovate? Should you be transparent towards the team or should you help them focus by hiding The Game Of Thrones some managers like to play? Patrick Kua tried to convince me you can often do both. Which is true but I feel it is still a difficult balancing act. It's hard to know if you struck the right balance. There was an interesting tip to do personal retrospectives, reflecting on how you did as an individual. Anyone know some cool formats for this?
+
+There were some interesting talks on building a team. Oren Ellenbogen talked at length how you could create happy engineering teams, even if your company is scaling. His book has the beautiful title [Leading snowflakes](http://leadingsnowflakes.com). Sam Barnes put it more plainly, _People are weird, I'm weird_. A common theme during the entire conference was respecting individuality, showing some empathy, and avoid hiring assholes.
+
+The best talk on empathy and hiring came from Cate Huston. What struck me, was when she mentioned that an interview is generally the most important thing a candidate will do that day. It has potentially a massive impact on the rest of his or her career. It makes sense to treat the interview with respect. She mentioned this crazy [piece of research](http://blogs.discovermagazine.com/notrocketscience/2011/04/11/justice-is-served-but-more-so-after-lunch-how-food-breaks-sway-the-decisions-of-judges/#.VfP2grxBbow). A prisoner is more likely to be released on parole if his judge just came back from lunch. How often do we bring our personal bias and stress to interviews? Take a little walk and clear your head before you are meeting with a candidate.  
+
+A great way to set up a candidate for success could be to give them a choice. Let the candidate choose between a coding exercise or a whiteboard exercise. If you want empowered people, shouldn't you start at the interview? Cate also gave some great tips on setting yourself up to come across warm and friendly. It basically boils down to looking at an image of a raccoon riding an alligator ;-) She also mentioned an interesting book called [The Charisma Myth](http://www.amazon.com/The-Charisma-Myth-Personal-Magnetism/dp/1591845947). Sam Barnes' focus on honesty during an interview was also great. We often ask the candidate for his or hers weak points. Why shouldn't we also tell them the crappy parts of the project they are joining?
+
+![Raccoon riding an alligator](/public/images/raccoon-riding-alligator.jpg)
+
+I've learned a lot at The Lead Developer conference. Introductions to Rust, Go, NativeScript, web optimization techniques, testing,... It really hit the sweet spot between technical and people-oriented topics. I'm looking forward to next year!

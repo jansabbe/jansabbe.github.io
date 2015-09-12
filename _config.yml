@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Jan Sabbe's blog
+tagline:             All sorts of ramblings and reflections
+url:                 http://blog.atrenko.com
 paginate:            1
 baseurl:             ""
 
@@ -20,11 +20,17 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jan Sabbe
+  url:               https://twitter.com/jansabbe
+  email:             blogger@atrenko.com
 
 # Custom vars
-version:             2.0.0
+version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/jansabbe/jansabbe.github.io
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
