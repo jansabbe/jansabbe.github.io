@@ -2,7 +2,6 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               Jan Sabbe's blog
@@ -22,7 +21,7 @@ sass:
 author:
   name:              Jan Sabbe
   url:               https://twitter.com/jansabbe
-  email:             blogger@atrenko.com
+  email:             mail.inator@atrenko.com
 
 # Custom vars
 version:             1.0.0
@@ -34,3 +33,6 @@ pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
 
+gems:
+  - jekyll-paginate
+  - jekyll-gist
