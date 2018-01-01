@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Telenet
 role: Developer / Coach
 period: may 2013 - jan 2014

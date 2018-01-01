@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Cegeka App Factory
 role: Architect
 period: jan 2014 - mar 2015

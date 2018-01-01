@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ventouris
 role: Developer
 period: jul 2008 - may 2010

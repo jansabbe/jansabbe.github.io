@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Clearstream - CmaX
 role: Agile coach
 period: jan 2012 - oct 2012

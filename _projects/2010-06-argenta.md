@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Argenta - Okapi
 role: Developer
 period: jun 2010 - dec 2011
