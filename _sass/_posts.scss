@@ -24,14 +24,14 @@
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #7B7B7B;
 }
 
 .twitter-blurb {
   font-size: 0.8rem;
-  color: #c0c0c0;
+  color: #7B7B7B;
   a {
-    color: #c0c0c0;
+    color: #7B7B7B;
     text-decoration: underline;
   }
 }
@@ -54,7 +54,7 @@
   li {
     small {
       font-size: 75%;
-      color: #999;
+      color: #7B7B7B;
     }
 
     a:hover {
@@ -66,4 +66,9 @@
       }
     }
   }
+}
+
+.readmore_link {
+  color: #7B7B7B;
+
 }

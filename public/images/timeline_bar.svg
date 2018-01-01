@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="379px" height="65px" viewBox="0 0 379 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>timeline_bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="frontpage" transform="translate(-185.000000, -275.000000)">
+            <g id="Timeline" transform="translate(185.000000, 237.000000)">
+                <g id="timeline_bar" transform="translate(0.000000, 36.000000)">
+                    <text id="SFX,-Brugge-ASO" font-family="ProzaLibre-SemiBold, Proza Libre" font-size="12" font-weight="500" fill="#1F1F30">
+                        <tspan x="0" y="12">SFX, Brugge</tspan>
+                        <tspan x="72.7089844" y="12" font-family="ProzaLibre-Medium, Proza Libre" font-size="10" font-weight="400"></tspan>
+                        <tspan x="0" y="28" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal">ASO</tspan>
+                    </text>
+                    <text id="KULeuven-Master-Info" font-family="ProzaLibre-SemiBold, Proza Libre" font-size="12" font-weight="500" fill="#1F1F30">
+                        <tspan x="79" y="12">KULeuven</tspan>
+                        <tspan x="140.054688" y="12" font-family="ProzaLibre-Regular, Proza Libre" font-size="10" font-weight="normal"></tspan>
+                        <tspan x="79" y="28" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal">Master Informatics</tspan>
+                    </text>
+                    <text id="Smals-Developer" font-family="ProzaLibre-SemiBold, Proza Libre" font-size="12" font-weight="500" fill="#1F1F30">
+                        <tspan x="165" y="12">Smals</tspan>
+                        <tspan x="200.396484" y="12" font-family="ProzaLibre-Regular, Proza Libre" font-size="10" font-weight="normal"></tspan>
+                        <tspan x="165" y="28" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal">Developer</tspan>
+                    </text>
+                    <text id="Cegeka-Architect" font-family="ProzaLibre-SemiBold, Proza Libre" font-size="12" font-weight="500" fill="#1F1F30">
+                        <tspan x="214" y="12">Cegeka</tspan>
+                        <tspan x="258.214844" y="12" font-family="ProzaLibre-Regular, Proza Libre" font-weight="normal"></tspan>
+                        <tspan x="214" y="28" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal">Architect</tspan>
+                    </text>
+                    <text id="Atrenko-Freelance" font-family="ProzaLibre-SemiBold, Proza Libre" font-size="12" font-weight="500" fill="#1F1F30">
+                        <tspan x="329" y="12">Atrenko</tspan>
+                        <tspan x="378.927734" y="12" font-family="ProzaLibre-Regular, Proza Libre" font-weight="normal"></tspan>
+                        <tspan x="329" y="28" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal">Freelance</tspan>
+                    </text>
+                    <g id="Group-9" transform="translate(0.000000, 35.000000)">
+                        <circle id="Oval-4" fill="#FF5943" cx="92" cy="9" r="9"></circle>
+                        <circle id="Oval-4-Copy-4" fill="#FF5943" cx="9" cy="9" r="9"></circle>
+                        <circle id="Oval-4-Copy" fill="#FF5943" cx="174" cy="9" r="9"></circle>
+                        <circle id="Oval-4-Copy-2" fill="#FF5943" cx="220" cy="10" r="9"></circle>
+                        <circle id="Oval-4-Copy-3" fill="#FF5943" cx="338" cy="9" r="9"></circle>
+                        <path d="M8,9 L361,9" id="Line" stroke="#FF5943" stroke-width="2" stroke-linecap="square"></path>
+                        <text id="1995" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal" letter-spacing="-0.231000111" fill="#7B7B7B">
+                            <tspan x="0" y="31">1995</tspan>
+                        </text>
+                        <text id="2001" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal" letter-spacing="-0.231000111" fill="#7B7B7B">
+                            <tspan x="83" y="31">2001</tspan>
+                        </text>
+                        <text id="2006" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal" letter-spacing="-0.231000111" fill="#7B7B7B">
+                            <tspan x="165" y="31">2006</tspan>
+                        </text>
+                        <text id="2008" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal" letter-spacing="-0.231000111" fill="#7B7B7B">
+                            <tspan x="211" y="31">2008</tspan>
+                        </text>
+                        <text id="2018" font-family="ProzaLibre-Regular, Proza Libre" font-size="9" font-weight="normal" letter-spacing="-0.231000111" fill="#7B7B7B">
+                            <tspan x="329" y="31">2018</tspan>
+                        </text>
+                        <circle id="Oval-5" fill="#FF5943" cx="367" cy="9" r="1"></circle>
+                        <circle id="Oval-5-Copy" fill="#FF5943" cx="372" cy="9" r="1"></circle>
+                        <circle id="Oval-5-Copy-2" fill="#FF5943" cx="377" cy="9" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

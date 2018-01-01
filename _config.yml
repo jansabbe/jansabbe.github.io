@@ -1,13 +1,14 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           /blog/:categories/:year/:month/:day/:title/
 
 # Setup
-title:               Jan Sabbe's blog
-tagline:             All sorts of ramblings and reflections
-url:                 http://blog.atrenko.com
-paginate:            1
+title:               Atrenko
+tagline:             Agile Architecture Consultancy
+url:                 http://www.atrenko.com
+paginate:            10
+paginate_path:       "/blog/page:num/"
 baseurl:             ""
 
 # Assets
@@ -21,18 +22,21 @@ sass:
 author:
   name:              Jan Sabbe
   url:               https://twitter.com/jansabbe
-  email:             mail.inator@atrenko.com
+  email:             info@atrenko.com
 
 # Custom vars
 version:             1.0.0
 github:
   repo:              https://github.com/jansabbe/jansabbe.github.io
 
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
+pages_list:
+  Home: '/'
+  Blog: '/blog/'
   Feed: '/atom.xml'
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
+
+collections:
+  - projects

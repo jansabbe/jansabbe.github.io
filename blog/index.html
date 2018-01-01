@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.excerpt }}
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="readmore_link">Read more...</a>
+  </article>
+  {% endfor %}
+</div>

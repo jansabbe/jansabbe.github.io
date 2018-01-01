@@ -3,33 +3,50 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div class="mediabox">
+  <div class="media">
+    <img width="200" src="{{ site.baseurl }}{% link /public/images/Jan-Sabbe.jpg %}" />
+  </div>
+  <div class="content">
+    <p>
+      My name is Jan Sabbe, a freelance software architect with experience in agile methodologies and in a variety of technologies. I have
+      practical knowledge of .Net, Java, web development and native iOS development. I often take on the role of lead developer
+      and architect. My coaching approach consists of leading by example, sharing observations and active listening. I value
+      mixed scrum teams, open communication and delivering real business value.
+    </p>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.content }}
-
-    {% include twitter.html %}
-  </article>
-  {% endfor %}
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}{% link /public/files/resume-jan-sabbe.pdf %}">Download resume</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/jansabbe">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jansabbe/">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<h2>Timeline</h2>
+<p style="padding: 2rem 0;">
+  <img src="{{ site.baseurl }}{% link /public/images/timeline_bar.svg %}" style="width:90%;">
+</p>
+
+<h2>Projects</h2>
+
+{% for item in site.projects reversed %}
+<article class="project">
+  <div class="line">
+    <h3>{{ item.title }}</h3>
+    <small class="technologies">{{item.technologies}}</small>
+  </div>
+
+  <div class="line">
+    <small class="role">{{item.role}}</small>
+    <small class="period">{{item.period}}</small>
+  </div>
+  {{ item.content }}
+</article>
+{% endfor %}
