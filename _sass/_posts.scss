@@ -6,6 +6,10 @@
 .page,
 .post {
   margin-bottom: 4em;
+
+  em {
+    font-weight: 500;
+  }
 }
 
 // Blog post or page title
