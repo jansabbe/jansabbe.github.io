@@ -81,4 +81,4 @@ There are a lot of reasons why your product roadmap should be changed. So if you
 
 ## Conclusion
 
-[Product Roadmaps Relaunched](https://www.amazon.com/Product-Roadmaps-Relaunched-Direction-Uncertainty/dp/149197172X) is an excellent book. It is a fairly short read and gives some great practical advice on how to create a product roadmap in an agile world.
+[Product Roadmaps Relaunched](https://www.amazon.com/Product-Roadmaps-Relaunched-Direction-Uncertainty/dp/149197172X) is an excellent book. It is a fairly short read and gives some great practical advice on how to create a product roadmap in an agile world. I loved how it focussed on the _why_. All too often I see product roadmaps that only contain the _what_. You end up overpromising features to the customer without actually solving their needs. This book avoids that trap.
