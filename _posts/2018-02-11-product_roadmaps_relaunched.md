@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Product roadmaps relaunched
+description: Creating a product roadmap that is compatible with agile software development.
+image: /public/images/product_roadmap_relaunched/example_product_roadmap.png
 title_image: /public/images/product_roadmap_relaunched/product_roadmap_title.png
 ---
 

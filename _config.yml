@@ -7,6 +7,8 @@ permalink:           /blog/:categories/:year/:month/:day/:title/
 title:               Atrenko
 tagline:             Agile Architecture Consultancy
 url:                 http://www.atrenko.com
+logo:                /public/images/logo.svg
+description:         Atrenko provides agile architecture and development services on a freelance basis.
 paginate:            10
 paginate_path:       "/blog/page:num/"
 baseurl:             ""
@@ -23,6 +25,18 @@ author:
   name:              Jan Sabbe
   url:               https://twitter.com/jansabbe
   email:             info@atrenko.com
+  twitter:           jansabbe
+
+# twitter
+twitter:
+  username: jansabbe
+
+social:
+  name: Jan Sabbe
+  links:
+    - https://twitter.com/jansabbe
+    - https://www.linkedin.com/in/jansabbe/
+    - https://github.com/jansabbe/
 
 # Custom vars
 version:             1.0.0
@@ -38,6 +52,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   - projects
