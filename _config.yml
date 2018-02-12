@@ -37,6 +37,7 @@ pages_list:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
 
 collections:
   - projects
