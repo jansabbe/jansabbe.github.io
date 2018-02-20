@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serverless
-description: What is serverless and why should I care?
+description: What is serverless and why should I care? The most interesting definition is not technical, but rather comes when looking from a financial perspective.
 image: /public/images/serverless/classic_datacenter.jpg
 title_image: /public/images/serverless/serverless_title.jpg
 ---
