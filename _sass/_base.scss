@@ -81,3 +81,8 @@ main {
   background-color: #fff;
   padding: 1.5rem 4rem;
 }
+@media(max-width:630px) {
+  main {
+    padding: 1.5rem 1rem;
+  }
+}
