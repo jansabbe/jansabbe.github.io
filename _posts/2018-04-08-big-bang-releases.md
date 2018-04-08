@@ -3,7 +3,7 @@ layout: post
 title: Big bang releases
 description: When replacing legacy software, a common strategy is the so called big bang release. As we saw with Argenta, this can literally lead to a big bang. Is there any alternative?
 image: /public/images/big_bang_releases/websnippet.jpg
-title_image: /public/images/big_bang_releases/websnippet.jpg
+title_image: /public/images/big_bang_releases/title_big_bang_release.jpg
 ---
 
 When replacing legacy software, a common strategy is the so called big bang release. As we saw with Argenta, this can literally lead to a big bang. In a single weekend they replaced a core legacy system with a new one. It failed miserably, resulting in customers not being able to access their bank accounts. The release at Argenta was a very public failure, but they are not alone. A lot of companies have tried and failed replacing their legacy systems in a single go. Quite often multi-million euro projects don't even reach production. Years of development have been thrown in the trash attempting a replacement. Is there an alternative strategy?
