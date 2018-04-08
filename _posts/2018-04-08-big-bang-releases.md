@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Big bang releases
-description: When replacing legacy software, a common strategy is the so called big bang release. As we saw with Argenta, this often results literally in a big bang. Is there an alternative strategy?
+description: When replacing legacy software, a common strategy is the so called big bang release. As we saw with Argenta, this can literally lead to a big bang. Is there any alternative?
 image: /public/images/big_bang_releases/websnippet.jpg
 title_image: /public/images/big_bang_releases/websnippet.jpg
 ---
 
-When replacing legacy software, a common strategy is the so called big bang release. As we saw with Argenta, this often results literally in a big bang. In a single weekend they replaced a core legacy system with a new one. It failed miserably, resulting in customers not able to access their bank accounts for an entire week. Argenta was a very public failure, but they are not alone. A lot of companies have tried and failed replacing their legacy systems in a single go. Quite often multi-million euro projects don't even reach production. Rather they are thrown in the trash after years of development. Is there an alternative strategy?
+When replacing legacy software, a common strategy is the so called big bang release. As we saw with Argenta, this can literally lead to a big bang. In a single weekend they replaced a core legacy system with a new one. It failed miserably, resulting in customers not being able to access their bank accounts. The release at Argenta was a very public failure, but they are not alone. A lot of companies have tried and failed replacing their legacy systems in a single go. Quite often multi-million euro projects don't even reach production. Years of development have been thrown in the trash attempting a replacement. Is there an alternative strategy?
 
-A more agile approach to releasing consists of starting with a small release. A first minimal viable product you release in production within 6 months. Once this version is released, you keep on extending. Every sprint you can release a new increment. The behavior of a small release is a lot easier to predict. If something does go wrong, it is easier to rollback or pinpoint and fix the rootcause.
+A more agile approach to releasing consists of starting with a small release. A first minimal viable product is released in production within a couple of months. It might not have a lot of features or serve all your customers, but atleast it is live. It allows you to gather early feedback and continuously monitor the behavior. Once this version is released, you keep on extending. Every sprint you release a new increment. The smaller you can make the releases, the more you reduce the risk. Some companies release multiple times a day, in a fully automated fashion. Their releases are utterly boring, not the result of [military planning](https://www.linkedin.com/feed/update/urn:li:activity:6386286352039768064) or cause for celebration.
 
 It is tricky to apply this strategy to replacing legacy systems. A first release without all the features of the legacy system is a hard sell. The solution? Don't replace, strangle.
 
@@ -20,7 +20,7 @@ When you apply [strangulation](https://www.martinfowler.com/bliki/StranglerAppli
 
 Deploy this release _next_ to the existing legacy system. When strangling a legacy system, the legacy system keeps running until we are sure the new system took over all responsibilities and is performing well.
 
-We don't want to bother the user with figuring out if he should use the new system or the legacy system. Instead we introduce a composite ui, which will show either an old legacy application screen or a new screen. Users will simply experience a single integrated system, but they might notice the difference between an old-fashioned UX style and a newer design.
+We don't want to bother the user with figuring out if he should use the new system or the legacy system. Instead we introduce a composite ui, which will show either an old legacy application screen or a new screen. Users will perceive a single integrated system, even if they notice the occasional difference between an old-fashioned legacy screen and a more modern screen of the new system.
 
 ![Step 2](/public/images/big_bang_releases/step2_strangulation.jpg)
 
@@ -32,7 +32,7 @@ If you are replacing a big legacy monolith, consider splitting it up in a micros
 
 A big part of strangling the legacy system, is syncing data. When you change something in the new system, you will probably need to update something in the legacy system. Vice versa, if a user updates something in the legacy system, you'll need to notify the new system. In the next section we'll dive deeper in this aspect.
 
-Avoid cutting inside the legacy system itself. That's where the dragons and unexpected behaviors are. Stay around the edges. As far as the legacy system is concerned, the new system is just another user. It doesn't even need to "know" it has less responsibilities.
+Avoid cutting inside the legacy system itself. That's where the dragons and unexpected behaviors are. Stay around the edges. As far as the legacy system is concerned, the new system is just another user. It doesn't even need to "know" it has less responsibilities. Some legacy screens might no longer be in use, but you don't need to spend the effort deleting them.
 
 ![Step 4](/public/images/big_bang_releases/step4_strangulation.jpg)
 
