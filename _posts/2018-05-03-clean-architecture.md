@@ -6,7 +6,7 @@ image: /public/images/clean_architecture/snippet.jpg
 title_image: /public/images/clean_architecture/clean_architecture_title.jpg
 ---
 
-The principles of clean architecture have been around for years. The same goes for hexagonal and onion architectures. Sadly I don’t see it applied too often. Too bad as these principles are simple yet powerfull. They lead to better design, clear separation of concerns and improved testability. This article is my attempt at evangelizing these principles.
+The principles of clean architecture have been around for years. The same goes for hexagonal and onion architectures. Sadly I don’t see it applied too often. Too bad as these principles are simple yet powerful. They lead to better design, clear separation of concerns and improved testability. This article is my attempt at evangelizing these principles.
 
 ![Layers](/public/images/clean_architecture/layers.jpg)
 
