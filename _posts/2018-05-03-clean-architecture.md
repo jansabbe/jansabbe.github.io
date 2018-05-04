@@ -74,4 +74,4 @@ Finally the presentation layer will contain all your Jest/Jasmine unit tests for
 
 # Conclusion
 
-There are many variants of clean, hexagonal and the onion architecture. Yet they all stress the importance of separation of concerns. They avoid infrastructural dependencies in the domain layer. This not only improves testability. It also allows you to postpone technical decisions till a time where you know more. While powerfull, this architectural style is pretty simple. In a next post I hope to show you with a concrete example.
+There are many variants of clean, hexagonal and the onion architecture. Yet they all stress the importance of separation of concerns. They avoid infrastructural dependencies in the domain layer. This not only improves testability. It also allows you to postpone technical decisions till a time where you know more. While powerful, this architectural style is pretty simple. In a next post I hope to show you with a concrete example.
