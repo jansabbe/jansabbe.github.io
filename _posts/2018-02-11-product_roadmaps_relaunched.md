@@ -73,7 +73,7 @@ A great way to figure out what themes to tackle first, is to create a [customer 
 
 ![Customer journey maps](/public/images/product_roadmap_relaunched/customer_journey.png)
 
-How does your customer interact with your organisation or your product? Where does it hurt the most? This is the kind of excercise that can help shape themes, timeframes and even customer objectives. Here's another [guide](https://www.cygrp.com/blog/customer-experience/a-step-by-step-guide-to-creating-a-customer-journey-map/) on how to create a customer journey map.
+How does your customer interact with your organisation or your product? Where does it hurt the most? This is the kind of excercise that can help shape themes, timeframes and even customer objectives. 
 
 ## ![Disclaimer](/public/images/product_roadmap_relaunched/disclaimer_title.png)
 
