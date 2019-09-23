@@ -69,11 +69,11 @@ Don't try to figure out what you will release on 23th June in 2038. The further 
 
 Make sure your roadmap reflects this inherent uncertainty. You can detail what you are doing this quarter. You can describe what problems you'll tackle the rest of the year, and what high-level issues or opportunities you see for the future.
 
-A great way to figure out what themes to tackle first, is to create a [customer journey map](https://uxmastery.com/how-to-create-a-customer-journey-map/).
+A great way to figure out what themes to tackle first, is to create a [customer journey map](https://uxmastery.com/how-to-create-a-customer-journey-map/). 
 
 ![Customer journey maps](/public/images/product_roadmap_relaunched/customer_journey.png)
 
-How does your customer interact with your organisation or your product? Where does it hurt the most? This is the kind of excercise that can help shape themes, timeframes and even customer objectives.
+How does your customer interact with your organisation or your product? Where does it hurt the most? This is the kind of excercise that can help shape themes, timeframes and even customer objectives. Here's another [guide](https://www.cygrp.com/blog/customer-experience/a-step-by-step-guide-to-creating-a-customer-journey-map/) on how to create a customer journey map.
 
 ## ![Disclaimer](/public/images/product_roadmap_relaunched/disclaimer_title.png)
 
